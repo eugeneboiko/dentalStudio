@@ -1,0 +1,81 @@
+/**
+ * @preserve (c) 2015 Eugene V. Boiko
+ * minskelectroshop@gmail.com
+ *
+ */
+.soc {
+  float: right;
+  padding: 3px 10px; }
+
+.soc a {
+  background-image: url(../images/social-net-12.png);
+  width: 12px;
+  height: 12px;
+  display: block;
+  float: left;
+  margin-right: 5px; }
+
+.icon-vk-12 {
+  background-position: 0 0px; }
+
+.icon-ok-12 {
+  background-position: 0 -12px; }
+
+.icon-lj-12 {
+  background-position: 0 -24px; }
+
+.icon-twitter-12 {
+  background-position: 0 -36px; }
+
+.icon-facebook-12 {
+  background-position: 0 -48px; }
+
+.icon-yaru-12 {
+  background-position: 0 -60px; }
+
+.icon-moimir-12 {
+  background-position: 0 -72px; }
+
+.icon-moikrug-12 {
+  background-position: 0 -84px; }
+
+.center {
+  display: table;
+  margin: 0 auto 0;
+  text-align: center; }
+
+tr:hover {
+  background-color: #f0f8ff; }
+
+/* mobile first */
+.media-left2 {
+  display: block; }
+
+/* flexible media*/
+.img-flex {
+  max-width: 100%;
+  margin: auto; }
+
+/* media query */
+@media only screen and (min-width: 1200px) {
+  .media-left2 {
+    display: table-cell; }
+  .img-flex {
+    max-width: none; } }
+
+.under-constract {
+  color: red;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em; }
+
+.table-phones {
+  width: 100%;
+  text-align: center; }
+
+.phone {
+  padding: 4px 0;
+  text-align: center; }
+
+.phone-7 {
+  font-size: 17px; }
